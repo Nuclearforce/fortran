@@ -1,0 +1,72 @@
+#include <TROOT.h>
+#include <iostream>
+#include <vector>
+#include <cstdio>
+#include <stdio.h>
+
+void plot_point()
+{
+    TCanvas *c2 = new TCanvas("c2","B(E2)",900,900);
+    
+	double minus_zero_four[37]={9.51E-04,3.20E-05,7.33E-04,1.92E-03,2.97E-03,3.74E-03,4.30E-03,4.74E-03,5.11E-03,5.47E-03,5.85E-03,6.26E-03,6.74E-03,7.27E-03,7.88E-03,8.55E-03,9.30E-03,1.01E-02,1.10E-02,1.20E-02,1.30E-02,1.40E-02,1.52E-02,1.63E-02,1.75E-02,1.87E-02,1.99E-02,2.10E-02,2.21E-02,2.32E-02,2.42E-02,2.50E-02,2.58E-02,2.64E-02,2.68E-02,2.71E-02,2.72E-02};
+	double x_minus_zero_four[37]={0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180};
+    TGraph *minus_zero_four_point =  new TGraph(37,x_minus_zero_four,minus_zero_four);
+    minus_zero_four_point->SetMarkerStyle(3);
+    minus_zero_four_point->SetLineColor(1);
+    minus_zero_four_point->SetMarkerColor(1);
+    minus_zero_four_point->SetTitle("");
+    minus_zero_four_point->GetXaxis()->SetTitle("#theta angles");
+    minus_zero_four_point->GetXaxis()->CenterTitle();
+    minus_zero_four_point->GetXaxis()->SetTitleSize(0.05);
+    minus_zero_four_point->GetXaxis()->SetTitleOffset(0.8);
+    minus_zero_four_point->GetXaxis()->CenterTitle();
+    minus_zero_four_point->GetYaxis()->SetTitle("Yield ratio of #frac{2^{+}_{1} #rightarrow 2^{+}_{2}}{2^{+}_{1} #rightarrow 0^{+}_{1}}");
+    minus_zero_four_point->GetYaxis()->CenterTitle();
+    minus_zero_four_point->GetYaxis()->SetTitleSize(0.05);
+    minus_zero_four_point->GetYaxis()->SetTitleOffset(1.5);
+    minus_zero_four_point->Draw("AP");
+    
+    double exp[1]={0.22993E-01};
+	double x_exp[1]={145};
+	double exp_error[1]={0.123E-04};
+    TGraphErrors *exp_point =  new TGraphErrors (1,x_exp,exp,0,exp_error);
+    exp_point->SetMarkerStyle(8);
+    exp_point->SetMarkerSize(1.7);
+    exp_point->SetMarkerColorAlpha(2,0.7);
+    //exp_point->SetLineColor(2);
+    //exp_point->SetMarkerColor(2);
+    exp_point->Draw("P same");
+    	
+    double plus_zero_four[37]={9.51E-04,3.20E-05,7.35E-04,1.93E-03,2.98E-03,3.76E-03,4.33E-03,4.78E-03,5.16E-03,5.54E-03,5.93E-03,6.38E-03,6.88E-03,7.45E-03,8.09E-03,8.81E-03,9.61E-03,1.05E-02,1.14E-02,1.25E-02,1.35E-02,1.47E-02,1.59E-02,1.71E-02,1.84E-02,1.97E-02,2.09E-02,2.22E-02,2.34E-02,2.45E-02,2.56E-02,2.65E-02,2.73E-02,2.80E-02,2.84E-02,2.87E-02,2.88E-02};
+	double x_plus_zero_four[37]={0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180};
+    TGraph *plus_zero_four_point =  new TGraph(37,x_plus_zero_four,plus_zero_four);
+    plus_zero_four_point->SetMarkerStyle(2);
+    plus_zero_four_point->SetLineColor(3);
+    plus_zero_four_point->SetMarkerColor(3);
+    plus_zero_four_point->Draw("P same");
+    
+    double plus_zero_eight[37]={3.55E-02,3.21E-05,7.35E-04,1.93E-03,2.99E-03,3.77E-03,4.35E-03,4.80E-03,5.19E-03,5.57E-03,5.98E-03,6.43E-03,6.95E-03,7.54E-03,8.20E-03,8.94E-03,9.77E-03,1.07E-02,1.16E-02,1.27E-02,1.38E-02,1.50E-02,1.63E-02,1.75E-02,1.89E-02,2.02E-02,2.15E-02,2.28E-02,2.40E-02,2.52E-02,2.63E-02,2.73E-02,2.81E-02,2.88E-02,2.93E-02,2.96E-02,2.97E-02};
+	double x_plus_zero_eight[37]={0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180};
+    TGraph *plus_zero_eight_point =  new TGraph(37,x_plus_zero_eight,plus_zero_eight);
+    plus_zero_eight_point->SetMarkerStyle(7);
+    plus_zero_eight_point->SetLineColor(4);
+    plus_zero_eight_point->SetMarkerColor(4);
+    plus_zero_eight_point->Draw("P same");
+    	
+    double minus_zero_eight[37]={3.55E-02,3.20E-05,7.33E-04,1.92E-03,2.96E-03,3.73E-03,4.29E-03,4.72E-03,5.08E-03,5.43E-03,5.80E-03,6.21E-03,6.67E-03,7.19E-03,7.77E-03,8.42E-03,9.14E-03,9.93E-03,1.08E-02,1.17E-02,1.27E-02,1.37E-02,1.48E-02,1.59E-02,1.70E-02,1.82E-02,1.93E-02,2.04E-02,2.15E-02,2.25E-02,2.35E-02,2.43E-02,2.50E-02,2.56E-02,2.60E-02,2.63E-02,2.64E-02};
+	double x_minus_zero_eight[37]={0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180};
+    TGraph *minus_zero_eight_point =  new TGraph(37,x_minus_zero_eight,minus_zero_eight);
+    minus_zero_eight_point->SetMarkerStyle(4);
+    minus_zero_eight_point->SetLineColor(6);
+    minus_zero_eight_point->SetMarkerColor(6);
+    minus_zero_eight_point->Draw("P same");
+    	
+   auto legend = new TLegend(0.1,0.7,0.48,0.9);
+   legend->AddEntry(exp_point,"experimental point","p");
+   legend->AddEntry(minus_zero_four_point,"-0.4 (e.b.)","p");
+   legend->AddEntry(plus_zero_four_point,"+0.4 (e.b.)","p");
+   legend->AddEntry(plus_zero_eight_point,"+0.8 (e.b.)","p");
+   legend->AddEntry(minus_zero_eight_point,"-0.8 (e.b.)","p");
+   legend->Draw();
+}
+

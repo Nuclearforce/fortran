@@ -1,0 +1,19 @@
+OP,FILE
+22 3 1
+gdet.out
+9 3 1
+gdet.f9
+8 3 1
+gdet.f8
+0 0 0
+OP,TITL
+Gamma Detectors
+OP,GDET
+-3
+0.25 2.0 7.0 23.4 !det1
+0 0 0 0 0 0 0
+0.25 2.0 7.0 23.1 !det2
+0 0 0 0 0 0 0
+0.25 7.5 7.59 24.9 !det3  diameter of crytal is 75.8 mm
+0 0 0 0 0 0 0
+OP,EXIT

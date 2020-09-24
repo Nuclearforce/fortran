@@ -1,0 +1,2733 @@
+1
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+ **************************************************                         **************************************************
+ **************************************************          GOSIA          **************************************************
+ **************************************************                         **************************************************
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+
+
+
+
+
+                    ROCHESTER COULOMB EXCITATION DATA ANALYSIS CODE BY T.CZOSNYKA,D.CLINE AND C.Y.WU
+                                                  VERSION: 20110524.5
+
+
+
+
+
+
+          14C beam on 194Pt target integration                                            
+          ----------------------------------------------------------------------------------------------------
+
+                                        LEVELS
+
+     INDEX     PARITY         SPIN           ENERGY(MEV)
+       1           +           0.0            0.0000
+       2           -           1.0            6.0900
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=1
+    INDEX   NF     NS          ME               LIMITS
+       1      1      2        0.00010       -1.00000        1.00000
+
+                                               REPRINT OF EXPERIMENTAL DATA TO BE FITTED
+
+
+
+
+
+     EXPERIMENT  1
+  PROJECTILE (  6., 14.)  45.000 MEV ---1 GE(LI) DETECTOR(S)  WEIGHT=0.10E+01
+                    ** EXPERIMENTAL YIELDS **
+    DECAY IS  IF         YIELD+/-ERROR
+
+       1   2   1  0.556522E+02     0.111304E+02
+
+
+        1 EXPERIMENTAL YIELDS            1 MATRIX ELEMENTS TO BE VARIED
+
+
+
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15979E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25469E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.26066E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.94908E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28471E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10803E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.18366E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.42648E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16298E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.19164E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13470E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.91977E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.23762E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28625E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10309E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.21261E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17996E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.85477E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25416E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14776E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12160E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11342E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15081E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.500 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.27251E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15956E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.21009E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.46725E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25928E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10187E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22872E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.60098E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17500E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.30165E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17980E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.62906E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.21164E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.89738E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11484E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34370E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25567E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16847E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.94175E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13365E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15319E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.72236E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36404E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10134E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     42.750 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17086E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.94292E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.44893E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34141E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12000E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10996E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15484E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.43477E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12769E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.20272E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25093E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22053E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.60983E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.21105E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.47568E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16194E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34652E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.89028E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.45057E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11805E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17189E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16050E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.53331E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.21848E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.000 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14179E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15677E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36069E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.19101E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.87994E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15533E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15104E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12581E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22767E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22794E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.31956E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.95270E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10485E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10202E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38123E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10497E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.23311E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.31546E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.72270E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37560E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29500E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25377E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.66662E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14287E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.250 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.42553E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14968E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.23183E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10835E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.24595E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.95860E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.53877E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29872E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14120E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.51976E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13378E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.53926E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13394E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12460E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11570E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29861E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.80804E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22232E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.55287E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13678E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.20967E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.46191E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34730E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.99998E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.500 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16466E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.52286E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.18982E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36200E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.63719E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12829E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25508E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.31439E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10673E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.15171E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.78966E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11655E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16340E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38877E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.40869E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10487E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.65472E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.81284E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36489E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10465E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17065E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.71758E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.49081E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.27713E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.54658E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10959E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.61335E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.33334E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.63912E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13007E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17634E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36048E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.30241E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10747E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36428E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29655E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12127E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22409E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17682E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.69009E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12659E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.83175E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12500E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38519E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.90935E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.27375E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.33474E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.93422E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.000 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.82149E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.98091E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14379E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16296E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.39532E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.55037E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.16979E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.42226E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.62323E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.92180E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.24255E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.31946E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11439E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12813E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36226E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13755E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.23022E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36899E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.33948E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.83175E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.66750E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.88172E-09   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14559E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.61286E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.250 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.11303E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37053E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38985E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28147E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34491E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.78860E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.58027E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37554E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.63752E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12439E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13898E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.27017E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.33947E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12867E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38684E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28467E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.87902E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12785E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.17117E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.87082E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12218E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13505E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.13231E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14769E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.500 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37570E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.43622E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.82988E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.43626E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.40360E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10839E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12781E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10336E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.48691E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.52500E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.18748E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.30869E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.45696E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.61162E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29702E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37790E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10503E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10282E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28490E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29209E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.51752E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14872E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29105E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.37391E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     44.750 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.82934E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 132.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.58021E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 133.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10378E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 134.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.12182E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 135.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.39993E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 136.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.58582E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 136.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.67130E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 137.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.31850E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 138.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.35833E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 139.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.65747E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 141.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.36458E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 142.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.45328E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 143.200 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.68200E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 144.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.10999E-07   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 145.600 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.96616E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 146.800 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.22055E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 148.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.25675E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 149.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.14704E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 150.700 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.45159E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 152.100 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.34074E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 153.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.69710E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 154.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.28966E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 156.400 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.24352E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 157.900 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.29527E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     45.000 MEV  THETA 159.500 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.90269E-08   0.10000E+01
+
+
+
+
+
+     INTEGRATED RUTHERFORD CROSS SECTION=.7328E+03  FOR EXP. 1
+
+
+
+
+
+                                                  INTEGRATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY RANGE   42.560---  45.000 MEV   SCATTERING ANGLE RANGE 132.000---160.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.38771E-08   0.10000E+01
+
+
+                                                  CALCULATED YIELDS
+
+     EXPERIMENT  1  DETECTOR  1
+     ENERGY     43.750 MEV  THETA 145.000 DEG
+
+     NI     NF     II     IF     YIELD     NORMALIZED YIELD
+
+      2      1    1.0    0.0   0.20434E-08   0.10000E+01
+
+
+
+          EXPERIMENT  1        DETECTOR  1
+
+         NI     NF     YEXP        YCOR        COR.F
+
+        2        1   .557E+02    .557E+02    .100E+01
+               ********* END OF EXECUTION **********

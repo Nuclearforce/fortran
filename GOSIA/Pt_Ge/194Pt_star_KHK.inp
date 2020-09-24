@@ -1,0 +1,72 @@
+OP,FILE
+22 3 1
+194pt_star_KHK.out
+0 0 0
+OP,TITL
+14C beam on 194Pt target
+OP,STAR output
+OP,GOSI
+LEVE
+1,1,0,0.0
+2,1,2,0.328
+3,1,4,0.811
+4,1,6,1.41181
+5,1,8,2.09953
+6,1,2,0.622
+7,1,4,1.229487
+8,1,5,1.49865
+9,-1,5,1.373
+10,-1,6,1.783
+11,-1,3,1.432
+0,0,0,0
+ME
+1 0 0 0 0
+    2  11   0.000298684870  -1.0 1.0
+    3   9                         0.1   -1.0 1.0 !where did you get this value from? I changed it to 0.1
+    3  11  0.000441653887   -1.0 1.0
+    6   9  0.000135263283    -1.0 1.0
+    6  11                         0.1  -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    7   9                          0.1  -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    7 11 0.00151603424        -1.0 1.0
+    9 10                           0.1 -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+2 0 0 0 0
+    1  2 1.28108382 -2.0 2.0
+    1  6 0.0983544439 -1.0 1.0
+    2  2                0.1  -1.0   1.0    !where did you get this value from?  I changed it to 0.1
+    2  3 2.25912738     -2.0   2.0
+    2  6 1.72301865 -2.0   2.0
+    2  7 0.147022069  -1.0   1.0
+    3  3                 0.1  1.0 -1.0  !where did you get this value from?  I changed it to 0.1
+    3  4  2.41056609  -3.0   3.0
+    3  7 0.916843593  -1.5   1.5
+    4  4                 0.1  -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    4  5                0.1  -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    6  6                0.1 -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    6  7 1.12289953  -2.0   2.0
+    7  7                0.1 -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    9 10               0.1 -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+    9 11                0.1 -1.0 1.0 !where did you get this value from?  I changed it to 0.1
+3 0 0 0 0
+    1 11 0.298673689  -1.0   1.0
+7 0 0 0 0
+    2  6 0.0299204104  -1.0   1.0
+    3  7 0.133137420  -1.0   1.0
+0 0 0 0 0
+EXPT
+4 78 194
+6 14 43.75 135.4 3 1 1 0 360 0 1
+6 14 43.75 142.2 3 1 1 0 360 0 2
+6 14 43.75 148.9 3 1 1 0 360 0 3
+6 14 43.75 155.6 3 1 1 0 360 0 4
+CONT
+INT,1.
+1,1000
+LCK,
+0 0
+WRN,3.
+PRT,
+0 0
+END,
+
+OP,STAR
+OP,EXIT

@@ -1,0 +1,900 @@
+1
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+ **************************************************                         **************************************************
+ **************************************************          GOSIA          **************************************************
+ **************************************************                         **************************************************
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+
+
+
+
+
+                    ROCHESTER COULOMB EXCITATION DATA ANALYSIS CODE BY T.CZOSNYKA,D.CLINE AND C.Y.WU
+                                                  VERS. 20110524.2   NOV 2011
+
+
+
+
+
+
+          14C beam on 194Pt target integration                                            
+          ----------------------------------------------------------------------------------------------------
+
+                                        LEVELS
+
+     INDEX     PARITY         SPIN           ENERGY(MEV)
+       1           +           0.0            0.0000
+       2           +           2.0            0.3280
+       3           +           4.0            0.8110
+       4           +           6.0            1.4118
+       5           +           8.0            2.0995
+       6           +           2.0            0.6220
+       7           +           4.0            1.2295
+       8           +           5.0            1.4987
+       9           -           3.0            1.4320
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=1
+    INDEX   NF     NS          ME               LIMITS
+       1      2      9        0.00030       -2.00000        2.00000
+       2      3      9        0.00044       -2.00000        2.00000
+       3      6      9        0.10000       -2.00000        2.00000
+       4      7      9        0.15160       -2.00000        2.00000
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME               LIMITS
+       5      1      2        1.28108        0.00010        3.00000
+       6      1      6        0.09835       -2.00000        2.00000
+       7      2      2        0.83000       -2.00000        2.00000
+       8      2      3        2.25913        0.00010        3.00000
+       9      2      6        1.72302       -2.00000        2.00000
+      10      2      7        0.14702       -2.00000        2.00000
+      11      3      3       -0.83000       -2.00000        2.00000
+      12      3      4        2.41057        0.00010        3.00000
+      13      3      6        0.10000       -2.00000        2.00000
+      14      3      7        0.91684       -4.00000        4.00000
+      15      3      8        0.10000       -4.00000        4.00000
+      16      4      4       -0.83000       -2.00000        2.00000
+      17      4      5        2.41057        0.00010        3.00000
+      18      4      7        0.10000       -2.00000        2.00000
+      19      4      8        0.10000       -4.00000        4.00000
+      20      6      6       -0.65960       -2.00000        2.00000
+      21      6      7        1.12290       -4.00000        4.00000
+      22      7      8        2.41057       -4.00000        4.00000
+     MULTIPOLARITY=3
+    INDEX   NF     NS          ME               LIMITS
+      23      1      9        0.29867       -2.00000        2.00000
+     MULTIPOLARITY=7
+    INDEX   NF     NS          ME               LIMITS
+      24      2      6        0.02992       -2.00000        2.00000
+      25      3      7        0.13314       -2.00000        2.00000
+
+
+       40 EXPERIMENTAL YIELDS           25 MATRIX ELEMENTS TO BE VARIED
+
+
+
+                                        BRANCHING RATIOS
+
+     NS1     NF1     NS2     NF2     RATIO(1:2)         ERROR
+      6       1       6       2        0.13690        0.02300
+      7       3       7       6        0.14400        0.01400
+      7       2       7       6        0.12200        0.00800
+      9       1       9       2        0.00330        0.00030
+      9       3       9       2        0.08100        0.00300
+      9       4       9       2        0.03900        0.01100
+      9       7       9       2        0.01600        0.00600
+     BRANCHING RATIOS ARE TAKEN WITH WEIGHT    0.100000E+01
+
+
+
+                              LIFETIMES(PSEC)
+
+
+     LEVEL         LIFETIME     ERROR
+
+        2           60.45         0.27
+        3            5.34         0.09
+        4            2.31         0.23
+        5            1.59         0.14
+        6           50.50         1.82
+        7            5.50         0.27
+        9            0.22         9.14
+
+          LIFETIMES ARE TAKEN WITH WEIGHT    0.100000E+02
+
+
+                    EXPERIMENTAL E2/M1 MIXING RATIOS
+
+
+          TRANSITION            DELTA          ERROR
+
+           6---  2               15.0000           2.0000
+
+          E2/M1 MIXING RATIOS ARE TAKEN WITH WEIGHT    0.100000E+01
+
+
+                              EXPERIMENTAL MATRIX ELEMENT(S)
+
+
+          TRANSITION          MAT.EL.          ERROR
+
+           2---  2                0.8300           0.0800
+           6---  6               -0.6596           0.6596
+
+           MATRIX ELEMENT(S) ARE TAKEN WITH WEIGHT    0.100000E+01
+
+
+
+     *****  RESTART-MATRIX ELEMENTS OVERWRITTEN  *****
+
+
+
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=1
+    INDEX   NF     NS          ME               LIMITS
+       1      2      9        0.12589       -2.00000        2.00000
+       2      3      9       -0.09690       -2.00000        2.00000
+       3      6      9        0.05629       -2.00000        2.00000
+       4      7      9        0.36074       -2.00000        2.00000
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME               LIMITS
+       5      1      2        1.28679        0.00010        3.00000
+       6      1      6        0.10157       -2.00000        2.00000
+       7      2      2        0.76803       -2.00000        2.00000
+       8      2      3        2.30892        0.00010        3.00000
+       9      2      6        1.71746       -2.00000        2.00000
+      10      2      7        0.29467       -2.00000        2.00000
+      11      3      3       -0.82403       -2.00000        2.00000
+      12      3      4        2.76037        0.00010        3.00000
+      13      3      6       -0.19061       -2.00000        2.00000
+      14      3      7        2.59624       -4.00000        4.00000
+      15      3      8        0.05712       -4.00000        4.00000
+      16      4      4        0.02928       -2.00000        2.00000
+      17      4      5        2.36623        0.00010        3.00000
+      18      4      7        0.47123       -2.00000        2.00000
+      19      4      8        4.00000       -4.00000        4.00000
+      20      6      6       -0.89560       -2.00000        2.00000
+      21      6      7        2.26473       -4.00000        4.00000
+      22      7      8        4.00000       -4.00000        4.00000
+     MULTIPOLARITY=3
+    INDEX   NF     NS          ME               LIMITS
+      23      1      9        0.30842       -2.00000        2.00000
+     MULTIPOLARITY=7
+    INDEX   NF     NS          ME               LIMITS
+      24      2      6        0.03003       -2.00000        2.00000
+      25      3      7       -0.61868       -2.00000        2.00000
+
+
+
+          ** EXPERIMENT  1 **
+
+
+     TARGET EXCITATION OF( 78,194.000) BY(  6, 14.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    138.316 DEG     EPSILON     1.0700
+     RECOIL ENERGY(MEV)      9.5568
+     RECOIL BETA    0.102844E-01
+     BOMBARDING ENERGY=     0.892 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+
+
+
+          ** EXPERIMENT  2 **
+
+
+     TARGET EXCITATION OF( 78,194.000) BY(  6, 14.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    144.745 DEG     EPSILON     1.0493
+     RECOIL ENERGY(MEV)      9.9384
+     RECOIL BETA    0.104877E-01
+     BOMBARDING ENERGY=     0.901 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+
+
+
+          ** EXPERIMENT  3 **
+
+
+     TARGET EXCITATION OF( 78,194.000) BY(  6, 14.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    151.045 DEG     EPSILON     1.0328
+     RECOIL ENERGY(MEV)     10.2580
+     RECOIL BETA    0.106550E-01
+     BOMBARDING ENERGY=     0.908 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+
+
+
+          ** EXPERIMENT  4 **
+
+
+     TARGET EXCITATION OF( 78,194.000) BY(  6, 14.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    157.315 DEG     EPSILON     1.0199
+     RECOIL ENERGY(MEV)     10.5186
+     RECOIL BETA    0.107895E-01
+     BOMBARDING ENERGY=     0.914 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+     *** CHISQ=  0.292964E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.292752E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.292243E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.292012E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.291488E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.291143E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.291060E+02 ***
+     *** CHISQ=  0.291007E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290710E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290630E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290614E+02 ***
+
+     MATRIX ELEMENT   1 LOCKED!
+     *** CHISQ=  0.290570E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290490E+02 ***
+     *** CHISQ=  0.290481E+02 ***
+
+     MATRIX ELEMENT   3 LOCKED!
+     *** CHISQ=  0.290478E+02 ***
+     *** CHISQ=  0.290478E+02 ***
+
+     MATRIX ELEMENT   2 LOCKED!
+     *** CHISQ=  0.290471E+02 ***
+     *** CHISQ=  0.290471E+02 ***
+
+     MATRIX ELEMENT  23 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290456E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290414E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290414E+02 ***
+
+     MATRIX ELEMENT   5 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.290409E+02 ***
+     *** CHISQ=  0.290398E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.289902E+02 ***
+     *** CHISQ=  0.289898E+02 ***
+
+     MATRIX ELEMENT   6 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.289604E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.289380E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.289075E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.288606E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.286762E+02 ***
+     *** CHISQ=  0.286017E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.285650E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.285423E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.285239E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.285236E+02 ***
+
+     MATRIX ELEMENT  14 LOCKED!
+     *** CHISQ=  0.285234E+02 ***
+     *** CHISQ=  0.285233E+02 ***
+
+     MATRIX ELEMENT  10 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.285206E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.285183E+02 ***
+     *** CHISQ=  0.285183E+02 ***
+
+     MATRIX ELEMENT  24 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.285180E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.285010E+02 ***
+     *** CHISQ=  0.284917E+02 ***
+
+     MATRIX ELEMENT   4 LOCKED!
+     *** CHISQ=  0.284877E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+     *** CHISQ=  0.284861E+02 ***
+
+     MATRIX ELEMENT  12 LOCKED!
+     *** CHISQ=  0.284837E+02 ***
+     *** CHISQ=  0.284836E+02 ***
+
+     MATRIX ELEMENT   9 LOCKED!
+     *** CHISQ=  0.284835E+02 ***
+     *** CHISQ=  0.284835E+02 ***
+
+     MATRIX ELEMENT   8 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284799E+02 ***
+     *** CHISQ=  0.284799E+02 ***
+
+     MATRIX ELEMENT  21 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284795E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284783E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284766E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284764E+02 ***
+
+     MATRIX ELEMENT  13 LOCKED!
+     *** CHISQ=  0.284764E+02 ***
+     *** CHISQ=  0.284764E+02 ***
+
+     MATRIX ELEMENT  25 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284755E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284749E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284718E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284713E+02 ***
+
+     MATRIX ELEMENT  11 LOCKED!
+     *** CHISQ=  0.284712E+02 ***
+     *** CHISQ=  0.284712E+02 ***
+
+     MATRIX ELEMENT   7 LOCKED!
+     *** CHISQ=  0.284685E+02 ***
+     *** CHISQ=  0.284685E+02 ***
+
+     MATRIX ELEMENT  20 LOCKED!
+     *** CHISQ=  0.284624E+02 ***
+     *** CHISQ=  0.284621E+02 ***
+
+     MATRIX ELEMENT  18 LOCKED!
+     *** CHISQ=  0.284614E+02 ***
+     *** CHISQ=  0.284610E+02 ***
+     *** CHISQ=  0.284607E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284605E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284603E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284603E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284602E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284602E+02 ***
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284601E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284601E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to   4.000000
+     *** CHISQ=  0.284601E+02 ***
+
+     MATRIX ELEMENT  16 LOCKED!
+     *** CHISQ=  0.284601E+02 ***
+     *** CHISQ=  0.284601E+02 ***
+
+     MATRIX ELEMENT  17 LOCKED!
+     *** CHISQ=  0.284600E+02 ***
+     *** CHISQ=  0.284600E+02 ***
+
+     MATRIX ELEMENT  15 LOCKED!
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+     *** CHISQ=  0.284575E+02 ***
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+  Warning - matrix element  19 reset to   4.000000
+  Warning - matrix element  22 reset to  -4.000000
+     *** CHISQ=  0.284575E+02 ***
+
+     MATRIX ELEMENT  19 LOCKED!
+     *** CHISQ=  0.284575E+02 ***
+     *** CHISQ=  0.284575E+02 ***
+
+     MATRIX ELEMENT  22 LOCKED!
+
+
+
+
+
+     *****  ALL MATRIX ELEMENTS LOCKED!  *****
+
+
+
+
+
+
+
+                    NORMALIZATION CONSTANTS
+
+  EXPERIMENT     DETECTORS(1-32)
+  1  0.7995E+07
+  2  0.8409E+07
+  3  0.7837E+07
+  4  0.6813E+07
+
+
+                    RECOMMENDED RELATIVE GE(LI) EFFICIENCIES
+
+  EXPERIMENT
+  1  0.1000E+01
+  2  0.1000E+01
+  3  0.1000E+01
+  4  0.1000E+01
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  1 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       9      2        3.0       2.0         1.1040      .3274E+04      .2613E+04    -25.3     -5.1          *?!*
+       9      3        3.0       4.0         0.6210      .3218E+03      .6246E+03     48.5      1.5              
+       9      6        3.0       2.0         0.8100      .2746E+03      .4682E+03     41.4      8.3          *?!*
+       4      3        6.0       4.0         0.6008      .2973E+03      .2477E+03    -20.0     -4.0          *?!*
+       7      3        4.0       4.0         0.4185      .5656E+03      .1197E+04     52.8     10.6          *?!*
+       7      6        4.0       2.0         0.6075      .1303E+04      .1240E+04     -5.1     -1.0              
+       3      2        4.0       2.0         0.4830      .3126E+05      .3938E+05     20.6      4.1          *?!*
+       6      1        2.0       0.0         0.6220      .3011E+04      .3663E+04     17.8      3.3          *?!*
+       6      2        2.0       2.0         0.2940      .2440E+05      .3038E+05     19.7      3.9          *?!*
+       2      1        2.0       0.0         0.3280      .1234E+07      .9753E+06    -26.5     -5.3          *?!*
+
+                                                  CHISQ SUBTOTAL =   0.296108E+03
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  2 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       9      2        3.0       2.0         1.1040      .3588E+04      .3220E+04    -11.4     -2.3              
+       9      3        3.0       4.0         0.6210      .3511E+03      .7545E+03     53.5     10.7          *?!*
+       9      6        3.0       2.0         0.8100      .3009E+03      .2159E+03    -39.4     -7.9          *?!*
+       4      3        6.0       4.0         0.6008      .3456E+03      .3373E+03     -2.5     -0.8              
+       7      3        4.0       4.0         0.4185      .6704E+03      .1169E+04     42.6      8.5          *?!*
+       7      6        4.0       2.0         0.6075      .1506E+04      .1736E+04     13.2      2.6              
+       3      2        4.0       2.0         0.4830      .3549E+05      .4025E+05     11.8      2.4              
+       6      1        2.0       0.0         0.6220      .3436E+04      .3827E+04     10.2      2.0              
+       6      2        2.0       2.0         0.2940      .2860E+05      .3175E+05      9.9      2.0              
+       2      1        2.0       0.0         0.3280      .1343E+07      .1181E+07    -13.7     -2.7              
+
+                                                  CHISQ SUBTOTAL =   0.283183E+03
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  3 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       9      2        3.0       2.0         1.1040      .3444E+04      .3245E+04     -6.1     -1.2              
+       9      3        3.0       4.0         0.6210      .3358E+03      .7605E+03     55.9     11.2          *?!*
+       9      6        3.0       2.0         0.8100      .2888E+03      .3149E+03      8.3      1.7              
+       4      3        6.0       4.0         0.6008      .3467E+03      .3575E+03      3.0      0.6              
+       7      3        4.0       4.0         0.4185      .6872E+03      .8203E+03     16.2      3.2          *?!*
+       7      6        4.0       2.0         0.6075      .1508E+04      .1324E+04    -14.0     -2.8              
+       3      2        4.0       2.0         0.4830      .3506E+05      .3470E+05     -1.0     -0.2              
+       6      1        2.0       0.0         0.6220      .3413E+04      .3183E+04     -7.2     -1.4              
+       6      2        2.0       2.0         0.2940      .2911E+05      .2641E+05    -10.2     -2.0              
+       2      1        2.0       0.0         0.3280      .1283E+07      .1211E+07     -6.0     -1.2              
+
+                                                  CHISQ SUBTOTAL =   0.155495E+03
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  4 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       9      2        3.0       2.0         1.1040      .3066E+04      .2547E+04    -20.4     -4.1          *?!*
+       9      3        3.0       4.0         0.6210      .2980E+03      .5970E+03     50.1     10.0          *?!*
+       9      6        3.0       2.0         0.8100      .2571E+03      .4070E+03     36.8      7.4          *?!*
+       4      3        6.0       4.0         0.6008      .3178E+03      .4651E+03     31.7      6.3          *?!*
+       7      3        4.0       4.0         0.4185      .6438E+03      .7549E+03     14.7      2.9              
+       7      6        4.0       2.0         0.6075      .1384E+04      .1095E+04    -26.4     -5.3          *?!*
+       3      2        4.0       2.0         0.4830      .3185E+05      .3056E+05     -4.2     -0.8              
+       6      1        2.0       0.0         0.6220      .3117E+04      .2829E+04    -10.2     -2.0              
+       6      2        2.0       2.0         0.2940      .2714E+05      .2351E+05    -15.5     -3.1          *?!*
+       2      1        2.0       0.0         0.3280      .1136E+07      .1262E+07      9.9      2.0              
+
+                                                  CHISQ SUBTOTAL =   0.266382E+03
+
+
+
+          EXP. AND CALCULATED BRANCHING RATIOS
+
+     NS1     NF1     NS2     NF2     RATIO(1:2)         ERROR       CALC.RATIO     (EXP-CAL)/ERROR
+
+
+      6       1       6       2        0.13690        0.02300        0.14988          -0.6
+      7       3       7       6        0.14400        0.01400        0.30269          ****
+      7       2       7       6        0.12200        0.00800        0.12931          -0.9
+      9       1       9       2        0.00330        0.00030        0.00000          11.0
+      9       3       9       2        0.08100        0.00300        0.10649          -8.5
+      0       0       9       2        0.03900        0.01100        0.00000           3.5
+      9       7       9       2        0.01600        0.00600        0.03563          -3.3
+
+
+          E2/M1 MIXING RATIOS
+          TRANSITION          EXP.DELTA          CALC.DELTA          SIGMA
+
+           6---  2               15.00              14.78             -0.11
+
+
+                    CALCULATED LIFETIMES
+
+     LEVEL     LIFETIME(PSEC)     EXP        ERROR
+
+        2       0.6045E+02     0.6045E+02    0.2735E+00
+        3       0.5156E+01     0.5340E+01    0.9107E-01
+        4       0.1746E+01     0.2310E+01    0.2283E+00
+        5       0.1588E+01     0.1590E+01    0.1360E+00
+        6       0.5019E+02     0.5050E+02    0.1825E+01
+        7       0.1050E+01     0.5500E+01    0.2739E+00
+        8       0.4157E+02
+        9       0.1540E-02     0.2160E+00    0.9139E+01
+
+
+CALCULATED AND EXPERIMENTAL MATRIX ELEMENTS
+
+
+     NI NF  EXP. ME   CURRENT ME   SIGMA
+      2   2    0.8300    0.7846   -0.5669
+      6   6   -0.6596   -0.9223   -0.3983
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=1
+    INDEX   NF     NS          ME          PC CHANGE     RED. TRANS. PROB.
+       1      2      9        0.13134        4.33226        0.00246   
+       2      3      9       -0.10160        4.84647        0.00147   
+       3      6      9        0.06053        7.52821        0.00052   
+       4      7      9        0.31557      -12.52075        0.01423   
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME          PC CHANGE     RED. TRANS. PROB.
+       5      1      2        1.28670       -0.00738        0.33112   
+       6      1      6        0.10208        0.49735        0.00208   
+       7      2      2        0.78465        2.16402     **********   
+       8      2      3        2.29738       -0.49982        0.58644   
+       9      2      6        1.71275       -0.27433        0.58670   
+      10      2      7        0.32181        9.21289        0.01151   
+      11      3      3       -0.60983      -25.99440     **********   
+      12      3      4        2.76416        0.13724        0.58774   
+      13      3      6       -0.04632      -75.69832        0.00043   
+      14      3      7        2.83321        9.12759        0.89190   
+      15      3      8        0.02453      -57.05224        0.00005   
+      16      4      4        0.20740      608.39164     **********   
+      17      4      5        2.36916        0.12418        0.33017   
+      18      4      7        0.50100        6.31876        0.02789   
+      19      4      8        4.00000        0.00000        1.45455*?*
+      20      6      6       -0.92230        2.98035     **********   
+      21      6      7        2.40071        6.00444        0.64038   
+      22      7      8       -3.61629     -190.40713        1.18887   
+     MULTIPOLARITY=3
+    INDEX   NF     NS          ME          PC CHANGE     RED. TRANS. PROB.
+      23      1      9        0.30081       -2.46770        0.01293   
+     MULTIPOLARITY=7
+    INDEX   NF     NS          ME          PC CHANGE     RED. TRANS. PROB.
+      24      2      6        0.02836       -5.53933        0.00016   
+      25      3      7       -0.62664        1.28523        0.04363   
+               ********* END OF EXECUTION **********

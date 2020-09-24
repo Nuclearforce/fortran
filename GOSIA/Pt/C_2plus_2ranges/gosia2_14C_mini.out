@@ -1,0 +1,293 @@
+1
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+ **************************************************                         **************************************************
+ **************************************************          GOSIA2         **************************************************
+ **************************************************                         **************************************************
+ *****************************************************************************************************************************
+ *****************************************************************************************************************************
+
+
+
+
+
+                    ROCHESTER COULOMB EXCITATION DATA ANALYSIS CODE BY T.CZOSNYKA,D.CLINE AND C.Y.WU
+                                                  LATEST REVISION- JUNE  2006
+
+
+
+
+
+
+          14C beam on 194Pt target                                                        
+          ----------------------------------------------------------------------------------------------------
+
+                                        LEVELS
+
+     INDEX     PARITY         SPIN           ENERGY(MEV)
+       1           +           0.0            0.0000
+       2           +           2.0            7.0100
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME               LIMITS
+       1      1      2        0.06300        0.00000        3.00000
+       2      2      2        0.08000       -3.00000        3.00000
+
+                                               REPRINT OF EXPERIMENTAL DATA TO BE FITTED
+
+
+
+
+
+     EXPERIMENT  1
+  PROJECTILE (  6., 14.)  43.750 MEV ---1 GE(LI) DETECTOR(S)  WEIGHT=0.10E+01
+                    ** EXPERIMENTAL YIELDS **
+    DECAY IS  IF         YIELD+/-ERROR
+
+       1   2   1  0.800000E-01     0.799920E-02
+
+
+
+     EXPERIMENT  2
+  PROJECTILE (  6., 14.)  43.750 MEV ---1 GE(LI) DETECTOR(S)  WEIGHT=0.10E+01
+                    ** EXPERIMENTAL YIELDS **
+    DECAY IS  IF         YIELD+/-ERROR
+
+       1   2   1  0.269231E-01     0.269205E-02
+
+
+        2 EXPERIMENTAL YIELDS            2 MATRIX ELEMENTS TO BE VARIED
+
+
+
+
+
+
+                              LIFETIMES(PSEC)
+
+
+     LEVEL         LIFETIME     ERROR
+
+        2            0.01   9999999.87
+
+          LIFETIMES ARE TAKEN WITH WEIGHT    0.000000E+00
+
+
+
+     *****  RESTART-MATRIX ELEMENTS OVERWRITTEN  *****
+
+
+
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME               LIMITS
+       1      1      2        0.06300        0.00000        3.00000
+       2      2      2        0.08000       -3.00000        3.00000
+
+
+
+          ** EXPERIMENT  1 **
+
+
+     PROJECTILE EXCITATION OF(  6, 14.000) ON( 78,194.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    141.042 DEG     EPSILON     1.0607
+     RECOIL ENERGY(MEV)     27.8316
+     RECOIL BETA    0.653323E-01
+     BOMBARDING ENERGY=     0.896 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+
+
+
+          ** EXPERIMENT  2 **
+
+
+     PROJECTILE EXCITATION OF(  6, 14.000) ON( 78,194.000)
+     ENERGY     43.750 MEV     BETA   0.819121E-01
+     DISTANCE OF CLOSEST APPROACH FOR HEAD-ON COLLISIONS    16.5143 FM
+     CM SCATTERING ANGLE    154.133 DEG     EPSILON     1.0260
+     RECOIL ENERGY(MEV)     27.2207
+     RECOIL BETA    0.646113E-01
+     BOMBARDING ENERGY=     0.911 OF SAFE BOMBARDING ENERGY AT THIS ANGLE
+
+
+                              EXPERIMENT  1          MAX.XI=4.1617
+
+                              E2        MI=0     MAX.ZETA= 4.182
+
+
+     XI             Q1                      Q2
+
+
+             SLOPE  INTERCEPT       SLOPE     INTERCEPT
+
+
+  0.0000   0.00E+00  0.00E+00      -.95E-04  0.85E+00
+  0.4624   -.12E-02  0.20E+00      0.98E-02  0.44E+00
+  0.9248   -.38E-01  0.35E+00      0.43E-01  0.14E+00
+  1.3872   -.12E+00  0.61E+00      0.48E-01  0.34E-01
+  1.8496   -.26E+00  0.11E+01      0.42E-01  0.80E-02
+  2.3120   -.44E+00  0.16E+01      0.35E-01  0.24E-02
+  2.7745   -.60E+00  0.21E+01      0.29E-01  0.11E-02
+  3.2369   -.66E+00  0.22E+01      0.25E-01  0.67E-03
+  3.6993   -.69E+00  0.23E+01      0.22E-01  0.44E-03
+  4.1617   -.69E+00  0.23E+01      0.20E-01  0.31E-03
+
+
+                              E2        MI=+/-1     MAX.ZETA= 4.182
+
+
+     XI             Q1                      Q2
+
+
+             SLOPE  INTERCEPT       SLOPE     INTERCEPT
+
+
+  0.0000   0.00E+00  0.18E-01      0.00E+00  -.00E+00
+  1.0404   0.00E+00  0.27E-01      0.00E+00  -.33E-01
+  2.0808   0.00E+00  0.97E-01      0.00E+00  -.41E-02
+  3.1213   0.00E+00  0.18E+00      0.00E+00  -.19E-02
+  4.1617   0.00E+00  0.18E+00      0.00E+00  -.14E-02
+
+
+                              EXPERIMENT  2          MAX.XI=4.1617
+
+                              E2        MI=0     MAX.ZETA= 4.182
+
+
+     XI             Q1                      Q2
+
+
+             SLOPE  INTERCEPT       SLOPE     INTERCEPT
+
+
+  0.0000   0.00E+00  0.00E+00      -.43E-03  0.90E+00
+  0.4624   -.12E-02  0.22E+00      0.12E-01  0.46E+00
+  0.9248   -.43E-01  0.37E+00      0.49E-01  0.14E+00
+  1.3872   -.13E+00  0.65E+00      0.53E-01  0.35E-01
+  1.8496   -.27E+00  0.11E+01      0.46E-01  0.85E-02
+  2.3120   -.46E+00  0.16E+01      0.39E-01  0.28E-02
+  2.7745   -.61E+00  0.21E+01      0.33E-01  0.13E-02
+  3.2369   -.67E+00  0.23E+01      0.28E-01  0.81E-03
+  3.6993   -.69E+00  0.23E+01      0.25E-01  0.54E-03
+  4.1617   -.68E+00  0.23E+01      0.22E-01  0.38E-03
+
+
+                              E2        MI=+/-1     MAX.ZETA= 4.182
+
+
+     XI             Q1                      Q2
+
+
+             SLOPE  INTERCEPT       SLOPE     INTERCEPT
+
+
+  0.0000   0.00E+00  0.13E-01      0.00E+00  -.00E+00
+  1.0404   0.00E+00  0.19E-01      0.00E+00  -.23E-01
+  2.0808   0.00E+00  0.75E-01      0.00E+00  -.25E-02
+  3.1213   0.00E+00  0.17E+00      0.00E+00  -.92E-03
+  4.1617   0.00E+00  0.18E+00      0.00E+00  -.67E-03
+     *** CHISQ=  0.289934E-01 ***
+
+     MATRIX ELEMENT   1 LOCKED!
+  Warning - only one matrix element free
+
+  Mode reset to single gradient, execution continues
+
+  Warning - only one matrix element free
+
+  Mode reset to single gradient, execution continues
+
+
+     MATRIX ELEMENT   2 LOCKED!
+
+
+
+
+
+     *****  ALL MATRIX ELEMENTS LOCKED!  *****
+
+
+
+
+
+          EXPERIMENT  1
+          D(LOG(Y)/D(LOG(ME))
+
+
+   2-- 1     (  1  -.37E+08)   (  2  0.62E+07)   (  0  0.00E+00)   (  0  0.00E+00)   (  0  0.00E+00)   (  0  0.00E+00)
+          EXPERIMENT  2
+          D(LOG(Y)/D(LOG(ME))
+
+
+   2-- 1     (  1  -.40E+08)   (  2  0.74E+07)   (  0  0.00E+00)   (  0  0.00E+00)   (  0  0.00E+00)   (  0  0.00E+00)
+
+
+                    VACUUM DEPOLARIZATION COEFFICIENTS 
+
+
+     EXPERIMENT  1
+     LEVEL          G2          G4          G6
+
+        2         1.0000      1.0000      1.0000
+
+
+                    VACUUM DEPOLARIZATION COEFFICIENTS 
+
+
+     EXPERIMENT  2
+     LEVEL          G2          G4          G6
+
+        2         1.0000      1.0000      1.0000
+
+
+                    NORMALIZATION CONSTANTS
+
+  EXPERIMENT     DETECTORS(1-32)
+  1  0.1855E+06
+  2  0.1181E+06
+
+
+                    RECOMMENDED RELATIVE GE(LI) EFFICIENCIES
+
+  EXPERIMENT
+  1  0.1000E+01
+  2  0.1000E+01
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  1 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       2      1        2.0       0.0         7.0100      .7807E-01      .8000E-01      2.4      0.2              
+
+                                                  CHISQ SUBTOTAL =   0.582175E-01
+
+
+     CALCULATED AND EXPERIMENTAL YIELDS   EXPERIMENT  2 DETECTOR  1
+
+      NI     NF       II        IF         ENERGY(MEV)      YCAL        YEXP       PC. DIFF.  (YE-YC)/SIGMA
+       2      1        2.0       0.0         7.0100      .2720E-01      .2692E-01     -1.0     -0.1              
+
+                                                  CHISQ SUBTOTAL =   0.105681E-01
+
+
+                    CALCULATED LIFETIMES
+
+     LEVEL     LIFETIME(PSEC)     EXP        ERROR
+
+        2       0.7380E-03     0.7000E-02    0.1000E+08
+
+                                        MATRIX ELEMENTS
+
+
+     MULTIPOLARITY=2
+    INDEX   NF     NS          ME          PC CHANGE     RED. TRANS. PROB.
+       1      1      2        0.18057      186.61642        0.00652   
+       2      2      2       -0.52578     -757.22180     **********   
+               ********* END OF EXECUTION **********
